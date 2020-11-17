@@ -1,0 +1,14 @@
+
+@mixin boton($color){
+  display: block;
+    background-color: $color;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: $blanco;
+    text-decoration: none;
+}
+
+@mixin box-sizing($box-model) {
+  box-sizing: $box-model;
+}
