@@ -122,3 +122,11 @@ html{
   @include box-sizing(inherit);
 }
 ```
+
+En la barra hemos introducido un mixin que le metemos un gradiente
+
+```
+@mixin gradiente($color1, $color2){
+  background:linear-gradient(to right, $color1 0%, $color2 100%)
+}
+```
